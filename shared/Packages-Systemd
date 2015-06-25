@@ -2,18 +2,22 @@
 bash
 bzip2
 coreutils
+cowsay
 cryptsetup
 device-mapper
 dhcpcd
 diffutils
 e2fsprogs
+emacs
 file
 filesystem
 findutils
+fortune-mod
 gawk
 >i686 gcc-libs
 >x86_64 gcc-libs-multilib
 gettext
+git
 glibc
 grep
 gzip
@@ -33,13 +37,17 @@ mdadm
 mhwd
 mhwd-db
 nano
+openssh
 pacman
 pciutils
 pcmciautils
 perl
 procps-ng
+powertop
 psmisc
+ranger
 reiserfsprogs
+rpl
 s-nail
 sed
 shadow
@@ -47,10 +55,15 @@ sysfsutils
 systemd-sysvcompat
 tar
 texinfo
+tree
 usbutils
 util-linux
+vim
 which
+wine
 xfsprogs
+zsh
+zsnes
 
 ## Base Packages
 cronie
@@ -77,6 +90,7 @@ syslinux
 ## Compression Codecs
 lzop
 unarj
+unace
 unrar
 unzip
 xz
@@ -90,7 +104,7 @@ lsof
 # dialog
 # dmidecode
 # gptfdisk
-# parted
+parted
 # pv
 # tcpdump
 wget
@@ -115,11 +129,14 @@ ntfs-3g
 terminus-font
 ttf-bitstream-vera
 ttf-dejavu
+ttf-droid
 ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
+ttf-oxygen
 
 ## Network
+aria2
 b43-fwcutter
 dhclient
 dnsmasq
@@ -153,3 +170,65 @@ intel-ucode
 
 ## Documentation
 manjaro-documentation
+
+
+## System
+yaourt
+
+## Dev
+base-devel
+boost
+opencv
+multilib-devel
+
+## Net
+aircrack-ng
+apache
+nmap
+nethack
+nethogs
+nginx
+
+## Utils
+ack
+ctags
+cmake
+doxygen
+parallel
+gdb
+gnupg
+iotop
+htop
+imagemagick
+meld
+tmux
+
+
+## Music
+beets
+mpd
+ncmpcpp
+
+## Languages
+clang
+dmd
+jdk8-openjdk
+nodejs
+python
+ipython
+octave
+r
+ruby
+sbt
+scala
+swi-prolog
+
+
+## DB
+postgresql
+postgis
+redis
+
+## LaTeX
+gnuplot
+texlive-most
